@@ -1,0 +1,141 @@
+.logIn{
+    justify-content: center;
+    padding: 40px 260px;
+}
+
+.login_welcome_text{
+    display: block;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.logIn_welcome_speech{
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.input_label{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.input_field{
+    border-color: #e2e4e6;
+    border-style: solid;
+    border-radius: 18px;
+    width: 90%;
+    padding: 20px;
+    background-color: #F7FBFF;
+    margin: 8px;
+}
+.input_field_error{
+    composes:input_field;
+    border-color: red;
+}
+
+.forget_password{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(27, 27, 165);
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    padding: 0;
+}
+
+.input_error{
+    composes:forget_password;
+    color: red;
+    font-size: 18px;
+}
+
+.logIn_button{
+    background-color: #162D3A;
+    width: 100%;
+    border-radius: 18px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+    margin: 22px 0;
+    border: none;
+}
+
+.logIn_button:hover{
+    background-color: #39779b;
+    width: 100%;
+    border-radius: 18px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+    margin: 22px 0;
+    border: none;
+}
+
+.horizental_line_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizental_line{
+    display: flex;
+    height: 1px;
+    width: 40%;
+    background-color: #d9dadb;
+    justify-content: center;    
+    align-items: center;
+    margin: 20px 0;
+}
+
+.or_text{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 20px;
+    padding: 0;
+}
+
+.social_media_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_media_div button{
+    width: 100%;
+    border-radius: 18px;
+    color: rgb(19, 19, 68);
+    background-color: #F3F9FA;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+    margin-top: 22px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_media_div button img{
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+
+.doesnt_have_account{
+    composes: forget_password;
+    color: black;
+    justify-content: center;
+}
+
+.doesnt_have_account a{
+    color: rgb(27, 27, 165);
+    text-decoration: none;
+}
