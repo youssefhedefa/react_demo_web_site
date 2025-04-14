@@ -1,0 +1,30 @@
+.homeHeader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.resetDivAlin{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.homeTaps{
+    composes: resetDivAlin;
+    padding: 20px;
+}
+
+.homeTaps h4{
+    
+}
+
+.homeIcons{
+    composes: resetDivAlin;
+}
+
+.homeIcons svg{
+    margin: 25px;
+    width: 25px;
+    height: 25px;
+}
