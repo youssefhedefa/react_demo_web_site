@@ -1,0 +1,37 @@
+.homeFooter{
+    width: 100%;
+    border-top: solid;
+    border-width: 2px;
+    border-color: rgb(211, 197, 179);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.socialMediaDiv{
+    display: block;
+    padding: 60px 120px;
+    margin-bottom: 40px;
+}
+
+.socialMediaDiv img{
+    display: block;
+}
+
+.socialMediaDiv svg{
+    padding-top: 60px;
+    padding-right:25px;
+}
+
+.footerTaps{
+    display: block;
+    margin: 20px 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.footerTapsHeadLine{
+    composes: footerTaps;    
+    font-size: 26px;
+    margin-bottom: 8px;
+}
